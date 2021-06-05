@@ -9,4 +9,4 @@ YouTube频道：波仔分享
 
 本脚本源于 GitHub：Lbingyi 以及 Paniy
 
-本教程视频演示地址：
+本教程视频演示地址：等等
