@@ -3,7 +3,7 @@
 
 用途：用于自动筛选 CF IP，并自动替换优选 IP 为 PassWall 的节点地址
 
-网站： www.v2rayssr.com （已开启禁止国内访问）
+网站： www.v2rayssr.com （已开启禁止大陆IP访问）
 
 YouTube频道：波仔分享
 
