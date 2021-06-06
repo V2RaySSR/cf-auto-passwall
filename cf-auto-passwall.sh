@@ -7,7 +7,7 @@
 
 # 1、请在脚本中修改你期望优选 IP 的带宽大小（默认50M）
 
-# 2、请更改 427 行 的 xxxxxxxxxx 字符串，为你自己 PassWall 的节点值（不会请看视频教程或是博客）
+# 2、请更改 425 行 的 xxxxxxxxxx 字符串，为你自己 PassWall 的节点值（不会请看视频教程或是博客）
 
 ######################################################################################################
 
@@ -422,8 +422,6 @@ done
 	echo 峰值速度 $max kB/s
 	echo 数据中心 $colo
 	echo 总计用时 $((end_seconds-start_seconds)) 秒
-		iptables -t nat -D OUTPUT $(iptables -t nat -nL OUTPUT --line-number | grep $localport | awk '{print $1}')
-		iptables -t nat -A OUTPUT -p tcp --dport $localport -j DNAT --to-destination $anycast:$remoteport
 	sed -i "s/$(uci get passwall.xxxxxxxxxx.address)/$anycast/g" /etc/config/passwall
 	uci commit passwall
 	/etc/init.d/haproxy restart
