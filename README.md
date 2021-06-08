@@ -27,6 +27,8 @@ YouTube频道：波仔分享
 
 1、请在脚本中修改你期望优选 IP 的带宽大小（默认50M）
 
-2、请更改 421 行 的 xxxxxxxxxx 字符串，为你自己 PassWall 的节点值（不会请看视频教程或是博客 https://www.v2rayssr.com/pacificrack.html）
+2、请更改 421 行 的 xxxxxxxxxx 字符串，为你自己 PassWall 的节点值
+
+3、不会请看视频教程或是博客 https://www.v2rayssr.com/pacificrack.html）
 
 
