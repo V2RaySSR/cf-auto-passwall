@@ -418,7 +418,7 @@ done
 	echo 峰值速度 $max kB/s
 	echo 数据中心 $colo
 	echo 总计用时 $((end_seconds-start_seconds)) 秒
-	uci set passwall.5c83ff940abb411bbac097787c2e498c.address=$anycast
+	uci set passwall.xxxxxxxxxx.address=$anycast
 	uci commit passwall
 	/etc/init.d/haproxy restart
 	/etc/init.d/passwall restart
