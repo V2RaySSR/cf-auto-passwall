@@ -9,7 +9,7 @@ YouTube频道：波仔分享
 
 本脚本源于 GitHub：Lbingyi 以及 Paniy
 
-本教程视频演示地址：等等
+本教程视频演示地址：https://youtu.be/WzRHi9f9QKg
 
 使用说明：加在 openwrt 上系统 计划任务里 添加定时运行，如 0 4 * * 2,4,6 bash /root/cf-auto-passwall.sh > /dev/null
 
