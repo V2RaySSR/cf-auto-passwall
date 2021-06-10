@@ -25,11 +25,11 @@ green "=========================================================="
  blue "网站： www.v2rayssr.com （已开启禁止国内访问）"
  blue "YouTube频道：波仔分享"
  blue "本脚本感谢 GitHub：Lbingyi 以及 Paniy"
- blue "本教程视频演示地址：https://youtu.be/cmkmx32zqPU"
+ blue "本教程视频演示地址：https://youtu.be/WzRHi9f9QKg"
 green "=========================================================="
 green "=========================================================="
  red  "请在脚本中修改你期望优选 IP 的带宽大小（默认50M）脚本自动运行中....."
- red  "bandwidth 后面的数值为带宽大小（ Mbps ）  "
+ red  "脚本第42行 bandwidth 后面的数值为期望优选带宽大小（ Mbps ）  "
 green "=================脚本正在运行中.....======================="
 sleep 8s
 /etc/init.d/haproxy stop
