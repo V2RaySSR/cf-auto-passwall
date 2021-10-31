@@ -41,7 +41,7 @@ declare -i speed
 
 
 # 下面为期望优选带宽的大小 默认 5M
-bandwidth=5
+bandwidth=50
 
 
 speed=bandwidth*128*1024
@@ -419,7 +419,7 @@ done
 	echo 峰值速度 $max kB/s
 	echo 数据中心 $colo
 	echo 总计用时 $((end_seconds-start_seconds)) 秒
-	uci set passwall.xxxxxxxxxx.address=$anycast
+	uci set passwall.8b3053589d0a48af84265f19c004f100.address=$anycast
 	uci commit passwall
 	/etc/init.d/haproxy restart
 	/etc/init.d/passwall restart
