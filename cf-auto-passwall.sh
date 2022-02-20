@@ -101,7 +101,7 @@ do
 		file=$(cat data.txt | grep file= | cut -f 2- -d'=')
 		url=$(cat data.txt | grep url= | cut -f 2- -d'=')
 		app=$(cat data.txt | grep app= | cut -f 2- -d'=')
-		if [ "$app" != "20210903" ]
+		if [ "$app" != "20220208" ]
 		then
 			echo 发现新版本程序: $app
 			echo 更新地址: $url
